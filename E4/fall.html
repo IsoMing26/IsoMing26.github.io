@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>CSS Composition Template</title>
+    <style>
+        div {
+            display: none;
+        }
+
+        .square1 {
+          display:block;
+          position: relative;
+          width: 150px;
+          height: 150px;
+          background-color: aquamarine;
+          left: 50%;
+        }
+
+        .square2 {
+            display: block;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            left: 50%;
+            top: 25%;
+            background-color: rgb(114, 227, 189);
+        }
+
+        .square3 {
+            display: block;
+            width: 80px;
+            height: 80px;
+            position: relative;
+            left: 50%;
+            top: 25%;
+            background-color: rgb(89, 179, 149);
+        }
+        .square4 {
+            display: block;
+            width: 60px;
+            height: 60px;
+            position: relative;
+            left: 50%;
+            top: 25%;
+            background-color: rgb(51, 100, 83);
+        }
+
+        .square5 {
+            display: block;
+            width: 40px;
+            height: 40px;
+            position: relative;
+            left: 50%;
+            top: 25%;
+            background-color: rgb(18, 36, 30);
+        }
+.fall{
+    transform:translateY(200px)
+}
+.shrink{
+    transform:scale(0.8)
+}
+.shrinkmore{
+    transform:scale(0.6)
+}
+.rotate{
+    transform:rotate(15deg)
+}
+.rotatemore{
+    transform:rotate(30deg)
+}
+.rotatealot{
+    transform:rotate(45deg)
+}
+body{
+    background-color:rgba(138, 111, 75, 0.779) ;
+}
+    </style>
+  </head>
+  <body>
+    <div class="square1"></div>
+    <div class="square1 shrink"></div>
+   <div class="square2 rotate"></div>
+    <div class="square3 rotatemore"></div>
+    <div class="square4 rotatealot"></div>
+    <div class="square5 rotatealot"></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </body>
+</html>
