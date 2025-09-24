@@ -13,8 +13,36 @@
             width: 150px;
             height: 150px;
             background-color: aqua;
+            transform-origin: center;
            
         }
+            @keyframes spinAndMorph {
+  0% {
+    transform: rotate(0deg) scale(1);
+    border-radius: 0%;
+  }
+  50%{
+    transform: translate(150px) rotate(180deg) scale(1.2) ;
+border-radius: 20%;
+  }
+  100% {
+    transform:  translate(350px) rotate(360deg) scale(1.5);
+    border-radius: 50%;
+  }
+}
+        #square1:hover{
+  animation-name: spinAndMorph;
+  animation-duration: 2.5s;
+  animation-delay: 150ms;
+  animation-fill-mode: forwards;      
+  animation-direction: normal;
+}
+
+#square1:hover ~ div {
+  opacity: 0;
+}
+    
+        
         #square2{
             display: inline-block;
             width: 150px;
@@ -22,7 +50,7 @@
             border-radius: 10px;
             background-color: aqua;
         }
-   #square3{
+        #square3{
             display: inline-block;
             width: 150px;
             height: 150px;
