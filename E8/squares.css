@@ -1,0 +1,13 @@
+.square{
+width: 100px;
+height: 100px;
+display: inline-block;
+}
+
+#container{
+    width: 2400px;
+}
+
+body{
+    background-color: bisque;
+}

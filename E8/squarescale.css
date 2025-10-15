@@ -1,0 +1,15 @@
+.scale{
+    display: inline-block;
+    background-color: #98A191;
+}
+
+#container{
+    width: 3000px;
+    text-align: center;
+    object-position: top 50%;
+}
+
+body{
+    background-color: #EECB86;
+    align-content: center;
+}

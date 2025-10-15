@@ -1,0 +1,11 @@
+
+#pattern{
+    width: 2160px;
+    font-size: 20px;
+    font-family: monospace;
+    font-style: oblique;
+}
+
+body{
+    background-color: azure;
+}
