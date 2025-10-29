@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'artifakt';
+    src: url(ARTIFAKT-ELEMENT-REGULAR.OTF);
+}
+
+body{
+    background-color: rgb(129, 143, 139);
+    color: rgb(152, 152, 152);
+    font-family:'artifakt';
+}
+
+#shots{
+    background-color: rgb(#F2F2F2);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin: 120px;
+}
+
+.imagebox{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 4%;
+    text-align: center;
+
+}
+
+.image{
+    width: 400px;
+    height: 300px;
+    background-color: #877eaf;
+
+}
