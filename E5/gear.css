@@ -1,0 +1,61 @@
+#gear {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgba(103, 103, 103, 0.47);
+    transform: translateY(0px);
+    position: absolute;
+    top:50%;
+    left: 20px;
+}
+
+#gear.active{
+    transform: translateY(10px);
+
+}
+
+#toggle{
+     width: 120px;
+     height: 200px;
+     background-color: rgb(141, 186, 201);
+     position: absolute;
+     top: 50%;
+     right: 25%;
+     transform: translateY(0px);
+}
+
+#toggle.active{
+    transform: translateY(10px);
+}
+
+#button{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(233, 143, 33, 0.861);
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    transform: translateY(0px);
+
+}
+
+#button.active{
+    transform: translateY(10px);
+}
+
+body {
+    background-color: rgb(205, 205, 184);
+}
+
+body.blur{
+    filter: blur(12px);
+}
+
+body.color{
+    background-color: rgb(209, 89, 89);
+}
+
+body.brightness{
+    filter: brightness(28);
+}
