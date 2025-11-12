@@ -13,8 +13,8 @@ function setup(){
 	createCanvas(windowWidth, windowHeight);
 	bgcolor = color(random(0, 256), random(0, 256), random(0, 256));
 	ballcolor = color(random(0, 256), random(0, 256), random(0, 256));
-	newballcolor = color(random(0, 256), random(0, 256), random(0, 256));
-	size = random(0.1, 0.5)
+	
+	
 }
 
 function windowResized() {
@@ -22,8 +22,9 @@ function windowResized() {
 }
 
 function draw(){
-	
+	size = random(0.1, 0.5)
 	var diameter = min(width, height) * size;
+	newballcolor = color(random(0, 256), random(0, 256), random(0, 256));
 	
 	background(bgcolor);
 	fill(ballcolor);  
